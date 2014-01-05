@@ -1,0 +1,111 @@
+html, body {
+	height: 100%;
+}
+
+body {
+    background-color: #222; 
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    padding: 25px;
+}
+
+body.zoomed {
+	padding: 0;
+}
+
+h1 {
+	color: White;
+}
+
+.zoomed h1 {
+	display: none;
+}
+
+a {
+	color: White;
+}
+
+#shared-content {
+    margin: 0 auto;
+    padding: 25px 0 0;
+    max-width: 90%;
+    text-align: center;
+}
+
+#shared-content img {
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+	margin-top: 25px;
+}
+
+.zoomed #shared-content {
+    max-width: none;
+    padding: 0;
+}
+
+.zoomed #shared-content img {
+    max-height: none!important;
+    max-width: none!important;
+}
+
+.download-link {
+	color: White;
+	text-transform: uppercase;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #1F70CC;
+	display: inline-block;
+	position: relative;
+	font-size: 0.9em;
+	text-decoration: none;
+	margin-top: 15px;
+	font-weight: bold;
+
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+.download-link:hover {
+	color: #dae4f0;
+}
+
+.zoomed .download-link {
+	display: none;
+}
+
+footer {
+	color: #444;
+	margin-top: 75px;
+	margin-bottom: 75px;
+	padding-bottom: 75px;
+	display: block;
+	font-size: 0.8em;
+}
+
+.zoomed footer {
+	display: none;
+}
+
+footer a {
+	color: #555;
+}
+
+.zoomed footer {
+	display: none;
+}
+
+#dragshare-logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	margin-bottom: 100px;
+}
